@@ -232,34 +232,42 @@
         margin-right: 10px;
     }
 
+    .dropboxbuisness{
+        margin-bottom: 30px;
+        margin-top: 30px;
+        font-size: 2em;
+    }
+
     .designit_container{
-        height: 400px;
+        /* height: 400px; */
         background-color: #B4D0E7;
         display: flex;
         flex-direction: row;
+        margin-top: 60px;
     }
     
     .advertising-column{
-        width: calc(100% / 3);
-        border: 2px dashed black;
+        width: calc(100vw / 3);
+        /* border: 2px dashed black; */
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        
     }
-    /* .squares{
-        border: 2px dashed red;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-    } */
-    
+
+    .advertising_center{
+        background-color: #F5F5F5;
+        padding: 30px;
+    }
+
     .square{
-        width: calc(100% / 2);
-        border: 2px dashed red;
+        width: calc(100vw / 6 - 3px);
+        height: calc(100vw / 6 - 3px);
+        /* border: 2px dashed red; */
         background-color: #A2D39B;
         vertical-align: middle;
         display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .brand{ 
         width: 50%;
@@ -278,25 +286,39 @@
     .red{
         background-color: red;
     }
-
-    .background{
+    .blue{
+        background-color: #0D2481;
+    }
+    .yellow{
+        background-color: #FFD830;
+    }
+    .sky{
         background-color: #B4D0E7;
     }
 
-    .background_container{
+
+    .bottom_advertasing{
+        background-color: #B4D0E7;
+        padding-bottom: 40px;
+    }
+
+    .advertasing_background_container{
         display: flex;
         flex-direction: row;
         padding: 30px;
     }
 
-    .background_left{
+    .advertasing_background_left{
+        margin-top: 40px;
+        margin-left: 40px;
         width:60% ;
+        color: #61082B;
     }
 
-    .background_right{
-        width:30% ;
+    .advertasing_background_right{
+        width:60% ;
         margin-top: 60px;
-        margin-left: 40px;
+        margin-left: 60px;
     }
 
     .footer_container{
