@@ -271,6 +271,11 @@
     }
     .brand{ 
         width: 50%;
+        filter: invert(1);
+    }
+
+    #black{
+        filter: invert(0);
     }
 
     .green{
