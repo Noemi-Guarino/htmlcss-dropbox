@@ -28,7 +28,6 @@
                     </ul>
                 </nav>
             </div>
-        
             <div class="rowright">
                 <nav>
                     <ul>
@@ -54,7 +53,7 @@
                         <i class="fa-solid fa-arrow-down fa-2xl"></i>
                     </div>
                     <div class="col-right">
-                        <img src="./img/jumbo.png" alt="">
+                        <img src="./img/jumbo.png" alt="dropboximg">
                     </div>
                 </div>
             </div>
@@ -63,16 +62,16 @@
 
     <main>
         <div class="smallcontainer">
-            <div>
+            <div class="planecontainer">
                 <h2>Trova il piano business che fa per te</h2>
                 <div class="input_container">
-                    <input type="radio" name="checked" value="..." />
-                    <span>Fatturazione mensile</span>
+                    <input type="radio" id="monthly" name="checked" value="..." />
+                    <label for="monthly">Fatturazione mensile</label>
                 </div>
                 <div class="input_container">
-                    <input type="radio" name="checked" value="..." />
-                    <span>Fatturazione annuale</span>
-                 </div>
+                    <input type="radio" id="annual" name="checked" value="..." />
+                    <label for="annual">Fatturazione annuale</label>
+                </div>
             </div>
             <div class="cards">
                 <div class="card">
@@ -325,7 +324,7 @@
             <h2>Domande frequenti</h2>
             <hr>
             <span><strong>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</strong></span>
-            <i class="fa-solid fa-angle-down" style="color: #000000;"></i>
+            <span class="anglearrow"><i class="fa-solid fa-angle-down" style="color: #000000;"></i></span>
             <hr>
             <span><strong>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</strong></span>
             <span class="anglearrow"><i class="fa-solid fa-angle-down" style="color: #000000;"></i></span>
@@ -361,7 +360,7 @@
                         </ul>
                     </div>
                     <div class="col-footer">
-                        <h4><strong>Dropbox</strong></h4>
+                        <h4><strong>Azienda</strong></h4>
                         <ul>
                             <li><a href="http://"></a>Applicazione desktop</li>
                             <li><a href="http://"></a>Perché Dropbox</li>
@@ -371,7 +370,7 @@
                         </ul>
                     </div>
                     <div class="col-footer">
-                        <h4><strong>Dropbox</strong></h4>
+                        <h4><strong>Supporto</strong></h4>
                         <ul>
                             <li><a href="http://"></a>Applicazione desktop</li>
                             <li><a href="http://"></a>Perché Dropbox</li>
@@ -381,7 +380,7 @@
                         </ul>
                     </div>
                     <div class="col-footer">
-                        <h4><strong>Dropbox</strong></h4>
+                        <h4><strong>Community</strong></h4>
                         <ul>
                             <li><a href="http://"></a>Applicazione desktop</li>
                             <li><a href="http://"></a>Perché Dropbox</li>
@@ -390,10 +389,17 @@
                             <li><a href="http://"></a>Sicurezza</li>
                         </ul>
                     </div>
-                </div>  
+                </div> 
+                
+                <div class="footer_bottom_container">
+                    <hr class="hr_short">
+                    <div>
+                        <span><i class="fa-solid fa-earth-americas" style="color: #ffffff;"></i></span>
+                        <span>Italiano</span>
+                        <span><i class="fa-solid fa-caret-up" style="color: #ffffff;"></i></span>
+                    </div>
+                </div>
             </div>
-        </div>
-        
         </div>
     </footer>
 </body>
