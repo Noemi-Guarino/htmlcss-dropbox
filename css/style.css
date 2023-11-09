@@ -44,6 +44,7 @@
 
     .top_container_header> *{ 
         display: flex;
+        align-items: center;
     }
 
    .button {
