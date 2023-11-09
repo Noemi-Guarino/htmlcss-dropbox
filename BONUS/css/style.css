@@ -40,7 +40,6 @@
     li> a{
         text-decoration: none;
         color: black;
-        padding: 20px;
     }
 
     .rowleft, .rowright{
@@ -166,15 +165,15 @@
         padding: 20px;
     }
 
-    .upperbuttomcard> *{
+    .upperbottomcard> *{
         margin-bottom: 20px ;
     }
 
-    .upperbuttomcard{
+    .upperbottomcard{
         margin-bottom: 20px ;
     }
 
-    .buttombuttomcard> *{
+    .bottombottomcard> *{
         margin-bottom: 20px ;
     }
 
