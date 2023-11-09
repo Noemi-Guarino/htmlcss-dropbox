@@ -348,11 +348,19 @@
     }
 
     .question{
-        padding: 40px;
+        margin-top: 20px;
+        margin-bottom: 60px;
     }
 
     .question> *{
-        margin: 40px;
+        padding: 20px;
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .border{
+        border-bottom: 1px solid black;
     }
 
     .footer_bottom_container> *{
