@@ -39,6 +39,7 @@
     li> a{
         text-decoration: none;
         color: black;
+        padding: 20px;
     }
 
     .top_container_header> *{ 
