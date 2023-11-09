@@ -311,20 +311,10 @@
     .advertasing_background_container{
         display: flex;
         flex-direction: row;
-        padding: 30px;
-    }
-
-    .advertasing_background_left{
-        margin-top: 40px;
-        margin-left: 40px;
-        width:60% ;
+        padding: 50px;
+        justify-content: space-between;
+        align-items: center;
         color: #61082B;
-    }
-
-    .advertasing_background_right{
-        width:60% ;
-        margin-top: 60px;
-        margin-left: 60px;
     }
 
     .footer_container{
