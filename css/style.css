@@ -39,7 +39,6 @@
     li> a{
         text-decoration: none;
         color: black;
-        padding: 20px;
     }
 
     .top_container_header> *{ 
@@ -132,15 +131,15 @@
         padding: 20px;
     }
 
-    .upperbuttomcard> *{
+    .upperbottomcard> *{
         margin-bottom: 20px ;
     }
 
-    .upperbuttomcard{
+    .upperbottomcard{
         margin-bottom: 20px ;
     }
 
-    .buttombuttomcard> *{
+    .bottombottomcard> *{
         margin-bottom: 20px ;
     }
 
